@@ -3,7 +3,8 @@ package com.mall.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
-import org.apache.shiro.authz.annotation.RequiresPermissions;
+import com.mall.product.entity.AttrEntity;
+import com.mall.product.service.AttrService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -11,8 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mall.product.entity.AttrEntity;
-import com.mall.product.service.AttrService;
 import com.mall.common.utils.PageUtils;
 import com.mall.common.utils.R;
 
@@ -23,7 +22,7 @@ import com.mall.common.utils.R;
  *
  * @author mark
  * @email Wyl@gmail.com
- * @date 2020-07-19 14:18:34
+ * @date 2020-07-19 14:58:11
  */
 @RestController
 @RequestMapping("product/attr")

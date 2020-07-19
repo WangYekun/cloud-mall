@@ -3,7 +3,6 @@ package com.mall.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
-import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,7 +22,7 @@ import com.mall.common.utils.R;
  *
  * @author mark
  * @email Wyl@gmail.com
- * @date 2020-07-19 14:18:33
+ * @date 2020-07-19 14:58:09
  */
 @RestController
 @RequestMapping("product/spuinfodesc")

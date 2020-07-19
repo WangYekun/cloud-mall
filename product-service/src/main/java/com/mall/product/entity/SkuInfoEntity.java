@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.math.BigDecimal;
 import java.io.Serializable;
-import java.util.Date;
+
 import lombok.Data;
 
 /**
@@ -13,7 +13,7 @@ import lombok.Data;
  * 
  * @author mark
  * @email Wyl@gmail.com
- * @date 2020-07-19 13:50:48
+ * @date 2020-07-19 14:58:10
  */
 @Data
 @TableName("pms_sku_info")
