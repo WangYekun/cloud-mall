@@ -17,6 +17,7 @@
         <module>product-service</module>
         <module>ware-service</module>
         <module>renren-fast</module>
+        <module>common-service</module>
     </modules>
 
 </project>
